@@ -1,0 +1,64 @@
+.day:after,
+.month:after,
+.year:after {
+	bottom: -51px;
+	
+}
+.day:before,
+.month:before,
+.year:before {
+	top: -51px;
+}
+
+.day:before,
+.month:before,
+.year:before,
+.day:after,
+.month:after,
+.year:after {
+	content: "";
+	position: absolute;
+	left: 0;
+	width: 80px;
+	height: 50px;
+	background-color: #fff;
+	opacity: 0.5;
+	pointer-events: none;
+	z-index: 1;
+	
+}
+.day,
+.month,
+.year {
+	position: relative;
+	height: 50px;
+	width: 80px;
+	margin: 0px 15px;
+	border-top: 1px solid #e0e0e0;
+	border-bottom: 1px solid #e0e0e0;
+	border-radius: 0;
+	font-size: 14px;
+
+
+}
+.date-picker {
+	display: flex;
+	padding: 50px 0px;
+	margin: 36.5px 0 31px 0px ;
+	overflow: hidden;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+}
+.date {
+	font-size: 30px;
+	font-weight: 300;
+}
+.day {
+	font-size: 12px !important;
+	display: flex;
+    align-items: center;
+}
+
+
+  

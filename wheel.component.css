@@ -1,0 +1,12 @@
+li {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 80px;
+	height: 50px;
+	user-select: none;
+	
+}
+.handle{
+	padding: 0px;
+}

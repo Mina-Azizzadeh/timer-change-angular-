@@ -1,0 +1,7 @@
+<div class=' center dragdealer year' (mousedown)="onMouseDown($event)" (touchstart)="onMouseDown($event)"
+    (mousemove)="onMouseMove($event)" (mouseup)="onMouseUp()" (touchmove)="onMouseMove($event)"
+    (touchend)="onMouseUp()">
+    <ul class='center handle' [ngStyle]="getInlineStyle()">
+        <li *ngFor="let year of data">{{ year }}</li>
+    </ul>
+</div>

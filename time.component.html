@@ -1,0 +1,11 @@
+<div class='center  date-picker'>
+    <wheel type="dayofweek" class="center day" [data]="DaysOpenModal" selected="{{time.dayofweek}}"
+        (onDateChange)="dateChanged($event)">
+    </wheel>
+    <wheel type="starthour" class="center  month" [data]="TimeHours" selected="{{time.starthour}}"
+        (onDateChange)="dateChanged($event)">
+    </wheel>
+    <wheel type="endhour" class="center  year" [data]="TimeHours" selected="{{time.endhour}}"
+        (onDateChange)="dateChanged($event)">
+    </wheel>
+</div>
